@@ -1,3 +1,9 @@
+const hostname = window.location.hostname;
+
+if (!hostname.startsWith("mite-students.")) {
+    return;
+}
+
 let usn=document.getElementById("username")
 usn.value="4MT23CS100"
 
