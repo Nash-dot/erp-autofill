@@ -10,7 +10,7 @@
     "permissions": ["storage", "activeTab", "scripting"],
     "content_scripts": [
         {
-            "matches": ["https://mite-students.contineo.in/*"],
+            "matches": ["https://mite-students*/*"],
             "js": ["content.js"]
 
         }
