@@ -1,7 +1,4 @@
 
-const url = window.location.hostname.split(".");
-
-if (url.startsWith("mite")) {
 
 let usn=document.getElementById("username")
 usn.value="4MT23CS100"
@@ -15,7 +12,6 @@ month.value="11"
 let year = document.getElementById("yyyy")
 year.value="2005"
 
-}
 
 
 
